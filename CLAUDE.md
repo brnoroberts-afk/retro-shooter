@@ -16,7 +16,12 @@ To reset the high score between test sessions: open DevTools → Application →
 
 ## Git Workflow
 
-This repo uses `gh` CLI and conventional commit prefixes (`feat:`, `fix:`, `refactor:`, `chore:`). Always commit specific files by name rather than `git add .`. Push to GitHub after each logical change.
+**Commit and push after every meaningful unit of work** — a feature added, a bug fixed, a refactor completed. Never leave work uncommitted at the end of a task. The GitHub repo must always reflect the current state so work is never lost and any change can be reverted.
+
+- Use conventional commit prefixes: `feat:`, `fix:`, `refactor:`, `chore:`
+- Stage specific files by name — never `git add .` or `git add -A`
+- Always push to `origin master` immediately after committing
+- Write commit messages that describe *why*, not just *what*
 
 Local git identity is configured at the repo level (`--local`) as `brnoroberts-afk / brnoroberts-afk@users.noreply.github.com`.
 
